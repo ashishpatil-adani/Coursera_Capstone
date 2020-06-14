@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_68b9abe4f45242918183d19efd322120 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_68b9abe4f45242918183d19efd322120" ></div>
+        
+</body>
+<script>    
+    
+            var map_68b9abe4f45242918183d19efd322120 = L.map(
+                "map_68b9abe4f45242918183d19efd322120",
+                {
+                    center: [30.7194022, 76.7646552],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c78613ecfc3a4dc5a2a1e9757efd21be = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+            var circle_marker_68a7405a1a0d4946b1f45c2217f73cc3 = L.circleMarker(
+                [30.7216, 76.7601],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_b221eeed0d244835b33908d1a88c07b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc6ab612bd134221a2c7fb2ad3f695d6 = $(`<div id="html_fc6ab612bd134221a2c7fb2ad3f695d6" style="width: 100.0%; height: 100.0%;">Nik Baker&#39;s, SCO 441 - 442, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_b221eeed0d244835b33908d1a88c07b4.setContent(html_fc6ab612bd134221a2c7fb2ad3f695d6);
+        
+
+        circle_marker_68a7405a1a0d4946b1f45c2217f73cc3.bindPopup(popup_b221eeed0d244835b33908d1a88c07b4)
+        ;
+
+        
+    
+    
+            var circle_marker_d9107d1d34cf4929887a698418c92b57 = L.circleMarker(
+                [30.7299, 76.7732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_3eb1a801e269411aa67ff9a2d5dc36d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c348f0a0856d4c0a846ec58249aa1bc0 = $(`<div id="html_c348f0a0856d4c0a846ec58249aa1bc0" style="width: 100.0%; height: 100.0%;">Starbucks Coffee, Sector 22 C, Near Sector 22, Chandigarh</div>`)[0];
+            popup_3eb1a801e269411aa67ff9a2d5dc36d8.setContent(html_c348f0a0856d4c0a846ec58249aa1bc0);
+        
+
+        circle_marker_d9107d1d34cf4929887a698418c92b57.bindPopup(popup_3eb1a801e269411aa67ff9a2d5dc36d8)
+        ;
+
+        
+    
+    
+            var circle_marker_d5edcf25f7ac40b389d0b2ee4c768e89 = L.circleMarker(
+                [30.7217, 76.7604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_a8de25d144594cb393010232f98d7ada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b25ae4077de24425b6429642470dc0b8 = $(`<div id="html_b25ae4077de24425b6429642470dc0b8" style="width: 100.0%; height: 100.0%;">OvenFresh, SCO 437 &amp; 438, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_a8de25d144594cb393010232f98d7ada.setContent(html_b25ae4077de24425b6429642470dc0b8);
+        
+
+        circle_marker_d5edcf25f7ac40b389d0b2ee4c768e89.bindPopup(popup_a8de25d144594cb393010232f98d7ada)
+        ;
+
+        
+    
+    
+            var circle_marker_e5f4dfa52f4e445b979b42875e796bcc = L.circleMarker(
+                [30.7148, 76.7517],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_8b1b5ca190ac499caa480f6266c084fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afbf52e06fc546afb05eb140faa7e272 = $(`<div id="html_afbf52e06fc546afb05eb140faa7e272" style="width: 100.0%; height: 100.0%;">Classic 44, SCO 413, Sector 44 D, Near Sector 44, Chandigarh</div>`)[0];
+            popup_8b1b5ca190ac499caa480f6266c084fa.setContent(html_afbf52e06fc546afb05eb140faa7e272);
+        
+
+        circle_marker_e5f4dfa52f4e445b979b42875e796bcc.bindPopup(popup_8b1b5ca190ac499caa480f6266c084fa)
+        ;
+
+        
+    
+    
+            var circle_marker_d7edc3475bcc49bc9b4e4abfde6845e2 = L.circleMarker(
+                [30.7302, 76.7737],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_59927c326fb14205a2f3096550e3fcd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2472c82fff654957a22c444d047d98b2 = $(`<div id="html_2472c82fff654957a22c444d047d98b2" style="width: 100.0%; height: 100.0%;">McDonald&#39;s, Himalaya Marg, Sector 22 C, Near Sector 22, Chandigarh</div>`)[0];
+            popup_59927c326fb14205a2f3096550e3fcd2.setContent(html_2472c82fff654957a22c444d047d98b2);
+        
+
+        circle_marker_d7edc3475bcc49bc9b4e4abfde6845e2.bindPopup(popup_59927c326fb14205a2f3096550e3fcd2)
+        ;
+
+        
+    
+    
+            var circle_marker_e494afa346894d21976a4ea684a6cc58 = L.circleMarker(
+                [30.7223, 76.7613],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_8db39fbaf6b643f2ad2ae3f88fa41b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1437766f882d4abaa6bc6d5d83202165 = $(`<div id="html_1437766f882d4abaa6bc6d5d83202165" style="width: 100.0%; height: 100.0%;">Barista, SCO 422, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_8db39fbaf6b643f2ad2ae3f88fa41b69.setContent(html_1437766f882d4abaa6bc6d5d83202165);
+        
+
+        circle_marker_e494afa346894d21976a4ea684a6cc58.bindPopup(popup_8db39fbaf6b643f2ad2ae3f88fa41b69)
+        ;
+
+        
+    
+    
+            var circle_marker_e5be381f25c74a889185f639108594cb = L.circleMarker(
+                [30.7056, 76.8013],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_beccc644fcf542f0a70d2e827a330f9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01957d15f1914d529990a96733f100b0 = $(`<div id="html_01957d15f1914d529990a96733f100b0" style="width: 100.0%; height: 100.0%;">McDonald&#39;s, 321, 3rd Floor, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_beccc644fcf542f0a70d2e827a330f9f.setContent(html_01957d15f1914d529990a96733f100b0);
+        
+
+        circle_marker_e5be381f25c74a889185f639108594cb.bindPopup(popup_beccc644fcf542f0a70d2e827a330f9f)
+        ;
+
+        
+    
+    
+            var circle_marker_59322b6bf69949e68eb60b815a3401f2 = L.circleMarker(
+                [30.7256, 76.8053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_8249cd3267d6495a978928fc111798d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dfb8397f2c74b5cb698bc732b0abe10 = $(`<div id="html_8dfb8397f2c74b5cb698bc732b0abe10" style="width: 100.0%; height: 100.0%;">Barbeque Nation, SCO 39, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_8249cd3267d6495a978928fc111798d1.setContent(html_8dfb8397f2c74b5cb698bc732b0abe10);
+        
+
+        circle_marker_59322b6bf69949e68eb60b815a3401f2.bindPopup(popup_8249cd3267d6495a978928fc111798d1)
+        ;
+
+        
+    
+    
+            var circle_marker_20f9f10b484d4872913cb5c4f91fba3c = L.circleMarker(
+                [30.7235, 76.7677],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_63cb919fca1d4dbdbbe8f4b0aa3e67f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06be9b532a6d4c389349331d81a1465e = $(`<div id="html_06be9b532a6d4c389349331d81a1465e" style="width: 100.0%; height: 100.0%;">Pyro, Ground Floor, Piccadilly Square Mall, Block A, Sector 34, Chandigarh</div>`)[0];
+            popup_63cb919fca1d4dbdbbe8f4b0aa3e67f4.setContent(html_06be9b532a6d4c389349331d81a1465e);
+        
+
+        circle_marker_20f9f10b484d4872913cb5c4f91fba3c.bindPopup(popup_63cb919fca1d4dbdbbe8f4b0aa3e67f4)
+        ;
+
+        
+    
+    
+            var circle_marker_99515916b9a147c19e52f4131fc0d99f = L.circleMarker(
+                [30.7057, 76.8006],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_539c3ce3e7d14219af015dac88637479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24b91441ef8a49cb826b98a53184bc07 = $(`<div id="html_24b91441ef8a49cb826b98a53184bc07" style="width: 100.0%; height: 100.0%;">Biryani Blues, Elante Mall, Plot 178, Phase-I, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_539c3ce3e7d14219af015dac88637479.setContent(html_24b91441ef8a49cb826b98a53184bc07);
+        
+
+        circle_marker_99515916b9a147c19e52f4131fc0d99f.bindPopup(popup_539c3ce3e7d14219af015dac88637479)
+        ;
+
+        
+    
+    
+            var circle_marker_6dbb75093ab5479bab6ea27f508ad229 = L.circleMarker(
+                [30.7256, 76.8053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_48c0ff0cf0be46c6a6e111abc1e080a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c41f08133bb147d8af43ccd206118503 = $(`<div id="html_c41f08133bb147d8af43ccd206118503" style="width: 100.0%; height: 100.0%;">Mainland China, SCO 40, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_48c0ff0cf0be46c6a6e111abc1e080a0.setContent(html_c41f08133bb147d8af43ccd206118503);
+        
+
+        circle_marker_6dbb75093ab5479bab6ea27f508ad229.bindPopup(popup_48c0ff0cf0be46c6a6e111abc1e080a0)
+        ;
+
+        
+    
+    
+            var circle_marker_698c440ffa83445aa47db48434a52822 = L.circleMarker(
+                [30.7405, 76.7816],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e94b3a5fb9424a459bd6a4e5590214cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55b045cbc2464d71bf3f25dbfc1a02be = $(`<div id="html_55b045cbc2464d71bf3f25dbfc1a02be" style="width: 100.0%; height: 100.0%;">Softy Corner, SCO 87, Sector 17, Chandigarh</div>`)[0];
+            popup_e94b3a5fb9424a459bd6a4e5590214cc.setContent(html_55b045cbc2464d71bf3f25dbfc1a02be);
+        
+
+        circle_marker_698c440ffa83445aa47db48434a52822.bindPopup(popup_e94b3a5fb9424a459bd6a4e5590214cc)
+        ;
+
+        
+    
+    
+            var circle_marker_48a119edaa85429b9177fdcf29f1b60c = L.circleMarker(
+                [30.7479, 76.7933],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_da78a959ab534adb801e1075c1ad1a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5161583e0e3e4a10a0b329c29134ce58 = $(`<div id="html_5161583e0e3e4a10a0b329c29134ce58" style="width: 100.0%; height: 100.0%;">Nik Baker&#39;s, Booth 31-34, Inner Market, Sector 9 D, Near Sector 9, Chandigarh</div>`)[0];
+            popup_da78a959ab534adb801e1075c1ad1a04.setContent(html_5161583e0e3e4a10a0b329c29134ce58);
+        
+
+        circle_marker_48a119edaa85429b9177fdcf29f1b60c.bindPopup(popup_da78a959ab534adb801e1075c1ad1a04)
+        ;
+
+        
+    
+    
+            var circle_marker_766ddd9157234460a1e4d1f63ece9514 = L.circleMarker(
+                [30.7399, 76.7818],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_a61f16245f964e2c95e8007afe65b5ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68a76662c496486b9ff632f8fb3c72a9 = $(`<div id="html_68a76662c496486b9ff632f8fb3c72a9" style="width: 100.0%; height: 100.0%;">Hot Stoppers, SCO 68 &amp; 69, Sector 17 C, Near Sector 17, Chandigarh</div>`)[0];
+            popup_a61f16245f964e2c95e8007afe65b5ff.setContent(html_68a76662c496486b9ff632f8fb3c72a9);
+        
+
+        circle_marker_766ddd9157234460a1e4d1f63ece9514.bindPopup(popup_a61f16245f964e2c95e8007afe65b5ff)
+        ;
+
+        
+    
+    
+            var circle_marker_a9873af885f9420c821bf6695193b117 = L.circleMarker(
+                [30.7247, 76.7653],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_9be8e4b6051b488cb378f74e6e6dd066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_467f28e941a54e9796370aa7c58bbc76 = $(`<div id="html_467f28e941a54e9796370aa7c58bbc76" style="width: 100.0%; height: 100.0%;">Pashtun, SCO 333 &amp; 334, Sector 35 B, Sector 35, Chandigarh</div>`)[0];
+            popup_9be8e4b6051b488cb378f74e6e6dd066.setContent(html_467f28e941a54e9796370aa7c58bbc76);
+        
+
+        circle_marker_a9873af885f9420c821bf6695193b117.bindPopup(popup_9be8e4b6051b488cb378f74e6e6dd066)
+        ;
+
+        
+    
+    
+            var circle_marker_a76df78bd6864d40a0ecef725c44b985 = L.circleMarker(
+                [30.7195, 76.8017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e5d99d9c1473440d898ad08242f4773a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91329bb0ab56425a955998ad4d39f4e4 = $(`<div id="html_91329bb0ab56425a955998ad4d39f4e4" style="width: 100.0%; height: 100.0%;">Old Pal Dhaba, Booth 165-166, Sector 28 D, Near Sector 28, Chandigarh</div>`)[0];
+            popup_e5d99d9c1473440d898ad08242f4773a.setContent(html_91329bb0ab56425a955998ad4d39f4e4);
+        
+
+        circle_marker_a76df78bd6864d40a0ecef725c44b985.bindPopup(popup_e5d99d9c1473440d898ad08242f4773a)
+        ;
+
+        
+    
+    
+            var circle_marker_9e7485a4a0ac47c788e564fdb86d6884 = L.circleMarker(
+                [30.7622, 76.7698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_80cec64bbabb4e968097236f7f9240b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ce0da60427445b90933c3593152c70 = $(`<div id="html_b6ce0da60427445b90933c3593152c70" style="width: 100.0%; height: 100.0%;">Raj Eatery, Student Center, Punjab University, Sector 14, Chandigarh</div>`)[0];
+            popup_80cec64bbabb4e968097236f7f9240b1.setContent(html_b6ce0da60427445b90933c3593152c70);
+        
+
+        circle_marker_9e7485a4a0ac47c788e564fdb86d6884.bindPopup(popup_80cec64bbabb4e968097236f7f9240b1)
+        ;
+
+        
+    
+    
+            var circle_marker_06ee930fcbce4d47b142538bbed8a29a = L.circleMarker(
+                [30.7408, 76.7823],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_820b9a13da6f4037987491c6add9a0f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e5147c1a1714a179351ce5b94dc793c = $(`<div id="html_6e5147c1a1714a179351ce5b94dc793c" style="width: 100.0%; height: 100.0%;">Hot Millions, SCO 196 - 197, Sector 17 C, Near Sector 17, Chandigarh</div>`)[0];
+            popup_820b9a13da6f4037987491c6add9a0f7.setContent(html_6e5147c1a1714a179351ce5b94dc793c);
+        
+
+        circle_marker_06ee930fcbce4d47b142538bbed8a29a.bindPopup(popup_820b9a13da6f4037987491c6add9a0f7)
+        ;
+
+        
+    
+    
+            var circle_marker_65c957846b124c99bc7169bc1a24abc4 = L.circleMarker(
+                [30.7253, 76.8058],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_32230c9627344034a1b83e619db79977 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db69330d8d8417d8f4ebf03139d87df = $(`<div id="html_9db69330d8d8417d8f4ebf03139d87df" style="width: 100.0%; height: 100.0%;">The Great Kabab Factory, SCO 43, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_32230c9627344034a1b83e619db79977.setContent(html_9db69330d8d8417d8f4ebf03139d87df);
+        
+
+        circle_marker_65c957846b124c99bc7169bc1a24abc4.bindPopup(popup_32230c9627344034a1b83e619db79977)
+        ;
+
+        
+    
+    
+            var circle_marker_7a113b159dac4994bc28ea50f240471c = L.circleMarker(
+                [30.7051, 76.8018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_66f060408602403b9ed1562cf342fbc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6143401565b64c199932bb2487fad3bc = $(`<div id="html_6143401565b64c199932bb2487fad3bc" style="width: 100.0%; height: 100.0%;">Cinnabon, 302 B &amp; C, Near PVR, 3rd Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_66f060408602403b9ed1562cf342fbc0.setContent(html_6143401565b64c199932bb2487fad3bc);
+        
+
+        circle_marker_7a113b159dac4994bc28ea50f240471c.bindPopup(popup_66f060408602403b9ed1562cf342fbc0)
+        ;
+
+        
+    
+    
+            var circle_marker_913bf09c1ab7480bbc36bc19b61ed507 = L.circleMarker(
+                [30.7479, 76.7933],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_0ba9aa3f050b460b9a434bc1a9230a8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_436c6999549d4b3296160ec09915f2c4 = $(`<div id="html_436c6999549d4b3296160ec09915f2c4" style="width: 100.0%; height: 100.0%;">Nik Baker&#39;s, Booth 31-34, Inner Market, Sector 9 D, Near Sector 9, Chandigarh</div>`)[0];
+            popup_0ba9aa3f050b460b9a434bc1a9230a8c.setContent(html_436c6999549d4b3296160ec09915f2c4);
+        
+
+        circle_marker_913bf09c1ab7480bbc36bc19b61ed507.bindPopup(popup_0ba9aa3f050b460b9a434bc1a9230a8c)
+        ;
+
+        
+    
+    
+            var circle_marker_bd3e16e448fe44d28075c55c788d30f1 = L.circleMarker(
+                [30.7542, 76.7705],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_4dae357c9a704128b937119c198dd991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_118641192bcb4235b51d3a0a6ae5759c = $(`<div id="html_118641192bcb4235b51d3a0a6ae5759c" style="width: 100.0%; height: 100.0%;">Gopal&#39;s, SCO 64 &amp; 65, Sector 15 D, Near Sector 15, Chandigarh</div>`)[0];
+            popup_4dae357c9a704128b937119c198dd991.setContent(html_118641192bcb4235b51d3a0a6ae5759c);
+        
+
+        circle_marker_bd3e16e448fe44d28075c55c788d30f1.bindPopup(popup_4dae357c9a704128b937119c198dd991)
+        ;
+
+        
+    
+    
+            var circle_marker_b80a7e065b084f50a03b2d980bf7ca8b = L.circleMarker(
+                [30.7006, 76.792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_f89c263c5a9e4091bc65f6efd53107fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e79418ca169468e9931b30bc6211300 = $(`<div id="html_7e79418ca169468e9931b30bc6211300" style="width: 100.0%; height: 100.0%;">Kings Cross - The Altius Boutique Hotel, The Altius Hotel, 25/9, Phase 2, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_f89c263c5a9e4091bc65f6efd53107fd.setContent(html_7e79418ca169468e9931b30bc6211300);
+        
+
+        circle_marker_b80a7e065b084f50a03b2d980bf7ca8b.bindPopup(popup_f89c263c5a9e4091bc65f6efd53107fd)
+        ;
+
+        
+    
+    
+            var circle_marker_184e527e4ac9473fab54d1e73f55652b = L.circleMarker(
+                [30.7547, 76.7874],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_bc641b3f5fcc4b93b646ae78e356fb2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70895ce21682425e885555e1560fb988 = $(`<div id="html_70895ce21682425e885555e1560fb988" style="width: 100.0%; height: 100.0%;">Faraabi Cafe, Sector 10D, Near Sector 10, Chandigarh</div>`)[0];
+            popup_bc641b3f5fcc4b93b646ae78e356fb2b.setContent(html_70895ce21682425e885555e1560fb988);
+        
+
+        circle_marker_184e527e4ac9473fab54d1e73f55652b.bindPopup(popup_bc641b3f5fcc4b93b646ae78e356fb2b)
+        ;
+
+        
+    
+    
+            var circle_marker_0d1cf4ad0ecf492cadafeef40cd99690 = L.circleMarker(
+                [30.7049, 76.8011],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_828bab59053645fbb02d6bd36a1c1586 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21962061da314487b2722dfef6e66ba4 = $(`<div id="html_21962061da314487b2722dfef6e66ba4" style="width: 100.0%; height: 100.0%;">Brooklyn Central, 51A, Courtyard, Ground Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_828bab59053645fbb02d6bd36a1c1586.setContent(html_21962061da314487b2722dfef6e66ba4);
+        
+
+        circle_marker_0d1cf4ad0ecf492cadafeef40cd99690.bindPopup(popup_828bab59053645fbb02d6bd36a1c1586)
+        ;
+
+        
+    
+    
+            var circle_marker_2a05e7eff51e42068302ec8c4d95777b = L.circleMarker(
+                [30.741, 76.7974],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_522a2498074544a9be1b90aac12081cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c767d8df0964e8aa39e432b96417b00 = $(`<div id="html_1c767d8df0964e8aa39e432b96417b00" style="width: 100.0%; height: 100.0%;">Monica&#39;s Puddings &amp; Pies, Booth 20 &amp; 21, Inner Market, Sector 8 B, Sector 8, Chandigarh</div>`)[0];
+            popup_522a2498074544a9be1b90aac12081cb.setContent(html_1c767d8df0964e8aa39e432b96417b00);
+        
+
+        circle_marker_2a05e7eff51e42068302ec8c4d95777b.bindPopup(popup_522a2498074544a9be1b90aac12081cb)
+        ;
+
+        
+    
+    
+            var circle_marker_733ac3a32b51473080c7445ca1405ecc = L.circleMarker(
+                [30.7547, 76.7872],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_f8a74052dc5e477bb10014a00f39a95e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c668f8be234c2a878474508bc79d46 = $(`<div id="html_34c668f8be234c2a878474508bc79d46" style="width: 100.0%; height: 100.0%;">Casa Bella Vista Pizzeria, Coal Depot, Backide Market, Sector 10 D, Near Sector 10, Chandigarh</div>`)[0];
+            popup_f8a74052dc5e477bb10014a00f39a95e.setContent(html_34c668f8be234c2a878474508bc79d46);
+        
+
+        circle_marker_733ac3a32b51473080c7445ca1405ecc.bindPopup(popup_f8a74052dc5e477bb10014a00f39a95e)
+        ;
+
+        
+    
+    
+            var circle_marker_55d46533bf4343ed91ce546bd4b176ac = L.circleMarker(
+                [30.7049, 76.8009],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_1abb914ad94540aea103c416c7fdc572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_305bc5a71ecf40d5ba47d8e1b0d30326 = $(`<div id="html_305bc5a71ecf40d5ba47d8e1b0d30326" style="width: 100.0%; height: 100.0%;">Starbucks Coffee, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_1abb914ad94540aea103c416c7fdc572.setContent(html_305bc5a71ecf40d5ba47d8e1b0d30326);
+        
+
+        circle_marker_55d46533bf4343ed91ce546bd4b176ac.bindPopup(popup_1abb914ad94540aea103c416c7fdc572)
+        ;
+
+        
+    
+    
+            var circle_marker_44a46cd513c14ba28f1673c825707dde = L.circleMarker(
+                [30.7083, 76.803],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_3e662a9399c84f568f6038c6ade28435 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1afba822c4cb4b9a9cc4fca36b2477b8 = $(`<div id="html_1afba822c4cb4b9a9cc4fca36b2477b8" style="width: 100.0%; height: 100.0%;">Flavour - Hotel Hometel, Hotel Hometel, 147 &amp; 148, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_3e662a9399c84f568f6038c6ade28435.setContent(html_1afba822c4cb4b9a9cc4fca36b2477b8);
+        
+
+        circle_marker_44a46cd513c14ba28f1673c825707dde.bindPopup(popup_3e662a9399c84f568f6038c6ade28435)
+        ;
+
+        
+    
+    
+            var circle_marker_276aa9fef8ba46bd86ef25cec5b84b82 = L.circleMarker(
+                [30.7044, 76.7258],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_9ad68ba6adc4466ea6c1b6764e96c388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05a78447478847f4a58682507b93a0bd = $(`<div id="html_05a78447478847f4a58682507b93a0bd" style="width: 100.0%; height: 100.0%;">Road Side Bells, SCO 70, Back Side, Phase 7, Mohali</div>`)[0];
+            popup_9ad68ba6adc4466ea6c1b6764e96c388.setContent(html_05a78447478847f4a58682507b93a0bd);
+        
+
+        circle_marker_276aa9fef8ba46bd86ef25cec5b84b82.bindPopup(popup_9ad68ba6adc4466ea6c1b6764e96c388)
+        ;
+
+        
+    
+    
+            var circle_marker_8d73619bb67d44f28b4cb559b1082d14 = L.circleMarker(
+                [30.7348, 76.7977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_8cccde1b8a894bb793843c7f83391efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f63126d08e2c436db609842e13ccc187 = $(`<div id="html_f63126d08e2c436db609842e13ccc187" style="width: 100.0%; height: 100.0%;">Virgin Courtyard, SCO 1A, Behind Madhya Marg, Sector 7C, Near Sector 7, Chandigarh</div>`)[0];
+            popup_8cccde1b8a894bb793843c7f83391efe.setContent(html_f63126d08e2c436db609842e13ccc187);
+        
+
+        circle_marker_8d73619bb67d44f28b4cb559b1082d14.bindPopup(popup_8cccde1b8a894bb793843c7f83391efe)
+        ;
+
+        
+    
+    
+            var circle_marker_5baa002967be44ff8b174e72ce72fe33 = L.circleMarker(
+                [30.7404, 76.7806],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e6b11106bb27499a9529a6d4f884a144 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71de6e1c449c486b9d353a9b89912e6f = $(`<div id="html_71de6e1c449c486b9d353a9b89912e6f" style="width: 100.0%; height: 100.0%;">Indian Coffee House, SCO 12, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_e6b11106bb27499a9529a6d4f884a144.setContent(html_71de6e1c449c486b9d353a9b89912e6f);
+        
+
+        circle_marker_5baa002967be44ff8b174e72ce72fe33.bindPopup(popup_e6b11106bb27499a9529a6d4f884a144)
+        ;
+
+        
+    
+    
+            var circle_marker_607316d13cd2459e83bd7ff4e318d4d1 = L.circleMarker(
+                [30.7117, 76.7198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_ff996d5acb274748aebea92b2e102676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7be2847cb3194dca91744b82272e0a1e = $(`<div id="html_7be2847cb3194dca91744b82272e0a1e" style="width: 100.0%; height: 100.0%;">Katani Dhaba, SCF 40, B2, Phase 3, Mohali</div>`)[0];
+            popup_ff996d5acb274748aebea92b2e102676.setContent(html_7be2847cb3194dca91744b82272e0a1e);
+        
+
+        circle_marker_607316d13cd2459e83bd7ff4e318d4d1.bindPopup(popup_ff996d5acb274748aebea92b2e102676)
+        ;
+
+        
+    
+    
+            var circle_marker_673c6157dc214dfb8e9238a99fa49815 = L.circleMarker(
+                [30.7062, 76.8009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_8b08e14ae84a48b4b6b10c608f1b92e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baa7f334abf3440b94f46d461fae7a6f = $(`<div id="html_baa7f334abf3440b94f46d461fae7a6f" style="width: 100.0%; height: 100.0%;">Cafe Delhi Heights, Unit 315, Plot 178-178A, Elante Mall, 3rd Floor, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_8b08e14ae84a48b4b6b10c608f1b92e1.setContent(html_baa7f334abf3440b94f46d461fae7a6f);
+        
+
+        circle_marker_673c6157dc214dfb8e9238a99fa49815.bindPopup(popup_8b08e14ae84a48b4b6b10c608f1b92e1)
+        ;
+
+        
+    
+    
+            var circle_marker_1d0dd66c8b5945c4a3e24d46d0b53e05 = L.circleMarker(
+                [30.7102, 76.7211],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_dc591f923ef848a9a733881848258533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a9e770b26914058afdf99c7ab7990e2 = $(`<div id="html_0a9e770b26914058afdf99c7ab7990e2" style="width: 100.0%; height: 100.0%;">KFC, SCF 76-77, B2, Phase 3, Mohali</div>`)[0];
+            popup_dc591f923ef848a9a733881848258533.setContent(html_0a9e770b26914058afdf99c7ab7990e2);
+        
+
+        circle_marker_1d0dd66c8b5945c4a3e24d46d0b53e05.bindPopup(popup_dc591f923ef848a9a733881848258533)
+        ;
+
+        
+    
+    
+            var circle_marker_59b905894a5b4457b0ff8db396aff21b = L.circleMarker(
+                [30.733, 76.8033],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_689df17e1a004e6aa9e0c15685bc9680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88ad3684217c4c25bb63efae77a912a3 = $(`<div id="html_88ad3684217c4c25bb63efae77a912a3" style="width: 100.0%; height: 100.0%;">Cafe Nomad, 178, Inner Market, Sector 7, Chandigarh</div>`)[0];
+            popup_689df17e1a004e6aa9e0c15685bc9680.setContent(html_88ad3684217c4c25bb63efae77a912a3);
+        
+
+        circle_marker_59b905894a5b4457b0ff8db396aff21b.bindPopup(popup_689df17e1a004e6aa9e0c15685bc9680)
+        ;
+
+        
+    
+    
+            var circle_marker_adc09e80c4044b56a954e725d9cb55e0 = L.circleMarker(
+                [30.7595, 76.7829],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_fd2fe4a589fe46b28e909ecd89c662cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98ccd64c47da46669ee7c8883c557dc7 = $(`<div id="html_98ccd64c47da46669ee7c8883c557dc7" style="width: 100.0%; height: 100.0%;">Subway, Booth 41, Sector 11 D, Chandigarh</div>`)[0];
+            popup_fd2fe4a589fe46b28e909ecd89c662cb.setContent(html_98ccd64c47da46669ee7c8883c557dc7);
+        
+
+        circle_marker_adc09e80c4044b56a954e725d9cb55e0.bindPopup(popup_fd2fe4a589fe46b28e909ecd89c662cb)
+        ;
+
+        
+    
+    
+            var circle_marker_e3cfad1500bf4932a44596ac096e6675 = L.circleMarker(
+                [30.7461, 76.7434],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_2b07c9ab18ef42448a74bf727aa4298e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d51bf2dd144344c189ab950eb8a6a98e = $(`<div id="html_d51bf2dd144344c189ab950eb8a6a98e" style="width: 100.0%; height: 100.0%;">Subway, SCO 314, Sector 38 D, Sector 38, Chandigarh</div>`)[0];
+            popup_2b07c9ab18ef42448a74bf727aa4298e.setContent(html_d51bf2dd144344c189ab950eb8a6a98e);
+        
+
+        circle_marker_e3cfad1500bf4932a44596ac096e6675.bindPopup(popup_2b07c9ab18ef42448a74bf727aa4298e)
+        ;
+
+        
+    
+    
+            var circle_marker_108e56e53ec6484bb08f457be6251404 = L.circleMarker(
+                [30.7226, 76.7618],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_cd329c9beacc42208e444469ae2c65ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed935f1992ed4cebbcc5dadc6fd4af72 = $(`<div id="html_ed935f1992ed4cebbcc5dadc6fd4af72" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day Lounge, SCO 411 &amp; 412, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_cd329c9beacc42208e444469ae2c65ec.setContent(html_ed935f1992ed4cebbcc5dadc6fd4af72);
+        
+
+        circle_marker_108e56e53ec6484bb08f457be6251404.bindPopup(popup_cd329c9beacc42208e444469ae2c65ec)
+        ;
+
+        
+    
+    
+            var circle_marker_c2938433d2a745d28a32a2d51d1a7838 = L.circleMarker(
+                [30.7052, 76.8032],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_4198f2175c8149668cd229bf52480ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75227c08d98749b6bd1e609979d13b5c = $(`<div id="html_75227c08d98749b6bd1e609979d13b5c" style="width: 100.0%; height: 100.0%;">Slounge - Lemon Tree Hotel, Lemon Tree Hotel, Plot 3MW, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_4198f2175c8149668cd229bf52480ba1.setContent(html_75227c08d98749b6bd1e609979d13b5c);
+        
+
+        circle_marker_c2938433d2a745d28a32a2d51d1a7838.bindPopup(popup_4198f2175c8149668cd229bf52480ba1)
+        ;
+
+        
+    
+    
+            var circle_marker_247b574a7a324e98a6ddde26f34888cd = L.circleMarker(
+                [30.7095, 76.801],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_c703ea414f1d4106b933ee55787e8ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bf2bf45e85a4ee2b592dde263b9de25 = $(`<div id="html_1bf2bf45e85a4ee2b592dde263b9de25" style="width: 100.0%; height: 100.0%;">Barbeque Nation, 143 A, Ground Floor, Purav Marg, Industrial Phase-1, Near Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_c703ea414f1d4106b933ee55787e8ee6.setContent(html_1bf2bf45e85a4ee2b592dde263b9de25);
+        
+
+        circle_marker_247b574a7a324e98a6ddde26f34888cd.bindPopup(popup_c703ea414f1d4106b933ee55787e8ee6)
+        ;
+
+        
+    
+    
+            var circle_marker_a6f3f3d250c148f4a186d87ac71784d1 = L.circleMarker(
+                [30.7244, 76.7689],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_38eba968da2143a58420a1a0732ea344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d76c7888793b436e8c5bb12edfd77766 = $(`<div id="html_d76c7888793b436e8c5bb12edfd77766" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, SCO 13-15, Sector 34 A, Near Sector 34, Chandigarh</div>`)[0];
+            popup_38eba968da2143a58420a1a0732ea344.setContent(html_d76c7888793b436e8c5bb12edfd77766);
+        
+
+        circle_marker_a6f3f3d250c148f4a186d87ac71784d1.bindPopup(popup_38eba968da2143a58420a1a0732ea344)
+        ;
+
+        
+    
+    
+            var circle_marker_7f45fb8591074103884588ced4b72264 = L.circleMarker(
+                [30.7189, 76.8019],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_24500af8a099460ba12dd3d9f21ac2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9699522428e44cd9ab31158dc6eb484 = $(`<div id="html_d9699522428e44cd9ab31158dc6eb484" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Sco 143, Hotel White Palace, Sector 28D, Near Sector 28, Chandigarh</div>`)[0];
+            popup_24500af8a099460ba12dd3d9f21ac2d1.setContent(html_d9699522428e44cd9ab31158dc6eb484);
+        
+
+        circle_marker_7f45fb8591074103884588ced4b72264.bindPopup(popup_24500af8a099460ba12dd3d9f21ac2d1)
+        ;
+
+        
+    
+    
+            var circle_marker_21b959975d5e4c32ae6b50a2bbcf3f39 = L.circleMarker(
+                [30.7145, 76.7178],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_d1ea176ce88c45d4a11474952d4be04d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87de5d76346e4d8795250663e1bf846c = $(`<div id="html_87de5d76346e4d8795250663e1bf846c" style="width: 100.0%; height: 100.0%;">Amrit Sweets, SCF 78, Phase 5, Mohali</div>`)[0];
+            popup_d1ea176ce88c45d4a11474952d4be04d.setContent(html_87de5d76346e4d8795250663e1bf846c);
+        
+
+        circle_marker_21b959975d5e4c32ae6b50a2bbcf3f39.bindPopup(popup_d1ea176ce88c45d4a11474952d4be04d)
+        ;
+
+        
+    
+    
+            var circle_marker_4c71a5bd1b944d70bbbf22e32455e711 = L.circleMarker(
+                [30.7399, 76.7923],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e313c106c63f49428e01809e31b4da70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d148a7156b4548aaa6c16a11c0d2bce8 = $(`<div id="html_d148a7156b4548aaa6c16a11c0d2bce8" style="width: 100.0%; height: 100.0%;">KFC, SCO 123, Madhya Marg, Sector 8 C, Sector 8, Chandigarh</div>`)[0];
+            popup_e313c106c63f49428e01809e31b4da70.setContent(html_d148a7156b4548aaa6c16a11c0d2bce8);
+        
+
+        circle_marker_4c71a5bd1b944d70bbbf22e32455e711.bindPopup(popup_e313c106c63f49428e01809e31b4da70)
+        ;
+
+        
+    
+    
+            var circle_marker_ff376a46fd674477a7782c7027f02f62 = L.circleMarker(
+                [30.6874, 76.738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_aa08957a0fb24fd3aa8b83e20ee84478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffa4645c87d14182a9bec06c926727df = $(`<div id="html_ffa4645c87d14182a9bec06c926727df" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, SCF 26, SAS Nagar, Phase 10, Mohali</div>`)[0];
+            popup_aa08957a0fb24fd3aa8b83e20ee84478.setContent(html_ffa4645c87d14182a9bec06c926727df);
+        
+
+        circle_marker_ff376a46fd674477a7782c7027f02f62.bindPopup(popup_aa08957a0fb24fd3aa8b83e20ee84478)
+        ;
+
+        
+    
+    
+            var circle_marker_6bc189f0c70c4c6f89785c6993dcc410 = L.circleMarker(
+                [30.7222, 76.7612],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e497fe3e39a54dabb858ca0bb8c6c2cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9a2d9c8185042428ff1e5c9be3c819b = $(`<div id="html_f9a2d9c8185042428ff1e5c9be3c819b" style="width: 100.0%; height: 100.0%;">KFC, SCO 425 &amp; 426, Sector 35 C, Sector 35, Chandigarh</div>`)[0];
+            popup_e497fe3e39a54dabb858ca0bb8c6c2cf.setContent(html_f9a2d9c8185042428ff1e5c9be3c819b);
+        
+
+        circle_marker_6bc189f0c70c4c6f89785c6993dcc410.bindPopup(popup_e497fe3e39a54dabb858ca0bb8c6c2cf)
+        ;
+
+        
+    
+    
+            var circle_marker_93ffd3fddbdc46acb5a360110b4dea26 = L.circleMarker(
+                [30.7057, 76.8012],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_07ff9182bf764e4fac880c9504148821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cf2fb5922f4c36a1fe993d3a51985b = $(`<div id="html_76cf2fb5922f4c36a1fe993d3a51985b" style="width: 100.0%; height: 100.0%;">KFC, 3rd Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_07ff9182bf764e4fac880c9504148821.setContent(html_76cf2fb5922f4c36a1fe993d3a51985b);
+        
+
+        circle_marker_93ffd3fddbdc46acb5a360110b4dea26.bindPopup(popup_07ff9182bf764e4fac880c9504148821)
+        ;
+
+        
+    
+    
+            var circle_marker_32edae9b34594cc591a922154e058e58 = L.circleMarker(
+                [30.7298, 76.7912],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_3789ca76dd2647d4b8d9eb617ded8df2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff84085d201b4c4b91b09d7fbad37468 = $(`<div id="html_ff84085d201b4c4b91b09d7fbad37468" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, SCF 31, Sector 19 D, Sector 19, Chandigarh</div>`)[0];
+            popup_3789ca76dd2647d4b8d9eb617ded8df2.setContent(html_ff84085d201b4c4b91b09d7fbad37468);
+        
+
+        circle_marker_32edae9b34594cc591a922154e058e58.bindPopup(popup_3789ca76dd2647d4b8d9eb617ded8df2)
+        ;
+
+        
+    
+    
+            var circle_marker_fc9e8b2ebb174611b5e3141488b92c2f = L.circleMarker(
+                [30.6872, 76.7382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_b1c8c1b4abdc47b487a50aff450c2e03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70d35bcbd5514226a8156012ffc4f633 = $(`<div id="html_70d35bcbd5514226a8156012ffc4f633" style="width: 100.0%; height: 100.0%;">Boston Bites, SCF 31, Phase 10, Mohali</div>`)[0];
+            popup_b1c8c1b4abdc47b487a50aff450c2e03.setContent(html_70d35bcbd5514226a8156012ffc4f633);
+        
+
+        circle_marker_fc9e8b2ebb174611b5e3141488b92c2f.bindPopup(popup_b1c8c1b4abdc47b487a50aff450c2e03)
+        ;
+
+        
+    
+    
+            var circle_marker_d3bcf57bc7fb482f8da22c5b94014f45 = L.circleMarker(
+                [30.731, 76.7755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_205de3de889a4f7fba0b075405524424 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9730d93ad44c04b78780d0fc74d375 = $(`<div id="html_0e9730d93ad44c04b78780d0fc74d375" style="width: 100.0%; height: 100.0%;">Tehal Singh&#39;s Dhaba, SCO 1121, Sector 22 B, Sector 22, Chandigarh</div>`)[0];
+            popup_205de3de889a4f7fba0b075405524424.setContent(html_0e9730d93ad44c04b78780d0fc74d375);
+        
+
+        circle_marker_d3bcf57bc7fb482f8da22c5b94014f45.bindPopup(popup_205de3de889a4f7fba0b075405524424)
+        ;
+
+        
+    
+    
+            var circle_marker_bc7ce171cfbb496da4a0d0135fc07477 = L.circleMarker(
+                [30.6952, 76.7312],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_19acfeeebd4c4e5b987a756eac763f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95e006b7b517485ebe22cbe698997076 = $(`<div id="html_95e006b7b517485ebe22cbe698997076" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Fortis Hospital, SAS Nagar, Sector 62, Near Phase 9, Mohali</div>`)[0];
+            popup_19acfeeebd4c4e5b987a756eac763f91.setContent(html_95e006b7b517485ebe22cbe698997076);
+        
+
+        circle_marker_bc7ce171cfbb496da4a0d0135fc07477.bindPopup(popup_19acfeeebd4c4e5b987a756eac763f91)
+        ;
+
+        
+    
+    
+            var circle_marker_77e83e0e50b44d38b906e57b59392cff = L.circleMarker(
+                [30.7544, 76.7877],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_b7f30857252d458b8a8cbd6b44b77331 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c50839ed86494a83d2bae500bc8e01 = $(`<div id="html_f6c50839ed86494a83d2bae500bc8e01" style="width: 100.0%; height: 100.0%;">Bakes &amp; Beans, SCF 9, Sector 10, Chandigarh</div>`)[0];
+            popup_b7f30857252d458b8a8cbd6b44b77331.setContent(html_f6c50839ed86494a83d2bae500bc8e01);
+        
+
+        circle_marker_77e83e0e50b44d38b906e57b59392cff.bindPopup(popup_b7f30857252d458b8a8cbd6b44b77331)
+        ;
+
+        
+    
+    
+            var circle_marker_a9030ded40264523b49938ddce50e769 = L.circleMarker(
+                [30.7384, 76.7842],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_7b61159d82d948048924e901259ff76c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd161dc11e4a4ed8a7cf55ca9e16128d = $(`<div id="html_fd161dc11e4a4ed8a7cf55ca9e16128d" style="width: 100.0%; height: 100.0%;">Sindhi Sweets, SCO 108 &amp; 109, Sector 17 C, Sector 17, Chandigarh</div>`)[0];
+            popup_7b61159d82d948048924e901259ff76c.setContent(html_fd161dc11e4a4ed8a7cf55ca9e16128d);
+        
+
+        circle_marker_a9030ded40264523b49938ddce50e769.bindPopup(popup_7b61159d82d948048924e901259ff76c)
+        ;
+
+        
+    
+    
+            var circle_marker_88d8b3c9431f4bea8137ce5d3ed48988 = L.circleMarker(
+                [30.7057, 76.8013],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_c973d15fa2da4b0f9e4417f7d3b63112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e5a93e29ebf4556add74a04e7ba53e0 = $(`<div id="html_3e5a93e29ebf4556add74a04e7ba53e0" style="width: 100.0%; height: 100.0%;">Pizza Hut, 320, 3rd Floor, Elante Mall, Phase 1, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_c973d15fa2da4b0f9e4417f7d3b63112.setContent(html_3e5a93e29ebf4556add74a04e7ba53e0);
+        
+
+        circle_marker_88d8b3c9431f4bea8137ce5d3ed48988.bindPopup(popup_c973d15fa2da4b0f9e4417f7d3b63112)
+        ;
+
+        
+    
+    
+            var circle_marker_c8d26751624f42899080ca10fe70b73c = L.circleMarker(
+                [30.7285, 76.8024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_19b5aac817124e80a0db7534a1d4dd25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de6ef3d7661f4ef0a2d96582762cd812 = $(`<div id="html_de6ef3d7661f4ef0a2d96582762cd812" style="width: 100.0%; height: 100.0%;">Swagath Restaurant &amp; Bar, SCO 7, Madhya Marg, Sector 26, Chandigarh</div>`)[0];
+            popup_19b5aac817124e80a0db7534a1d4dd25.setContent(html_de6ef3d7661f4ef0a2d96582762cd812);
+        
+
+        circle_marker_c8d26751624f42899080ca10fe70b73c.bindPopup(popup_19b5aac817124e80a0db7534a1d4dd25)
+        ;
+
+        
+    
+    
+            var circle_marker_89f09ea4047d49d39d480d3e6ceef276 = L.circleMarker(
+                [30.7216, 76.7717],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_3d057f163975412282e9f4097eb53aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828857a20e1e4d5bafed37278b295c8f = $(`<div id="html_828857a20e1e4d5bafed37278b295c8f" style="width: 100.0%; height: 100.0%;">Benares, The Toy Hotel, SCO 165-67, 1st Floor, Sector 34, Chandigarh</div>`)[0];
+            popup_3d057f163975412282e9f4097eb53aa6.setContent(html_828857a20e1e4d5bafed37278b295c8f);
+        
+
+        circle_marker_89f09ea4047d49d39d480d3e6ceef276.bindPopup(popup_3d057f163975412282e9f4097eb53aa6)
+        ;
+
+        
+    
+    
+            var circle_marker_9d41ae4e39794666a01dbd9f38cae43c = L.circleMarker(
+                [30.71, 76.7217],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_3f2a32ad2be543c98a812050e33ba169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86c0728870ff4d07a07a067fd35873a6 = $(`<div id="html_86c0728870ff4d07a07a067fd35873a6" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, SCF 123, Main Market, Phase 3B2, Phase 3, Mohali</div>`)[0];
+            popup_3f2a32ad2be543c98a812050e33ba169.setContent(html_86c0728870ff4d07a07a067fd35873a6);
+        
+
+        circle_marker_9d41ae4e39794666a01dbd9f38cae43c.bindPopup(popup_3f2a32ad2be543c98a812050e33ba169)
+        ;
+
+        
+    
+    
+            var circle_marker_745b425c53724bf9ab255b88d46862a3 = L.circleMarker(
+                [30.7049, 76.8009],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_67d771e5fadc4191828ffd1185b7a64a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b17db6bbaa1e4e7fab1f2e391dbce3a0 = $(`<div id="html_b17db6bbaa1e4e7fab1f2e391dbce3a0" style="width: 100.0%; height: 100.0%;">Starbucks Coffee, Elante Mall, Chandigarh Industrial Area, Chandigarh</div>`)[0];
+            popup_67d771e5fadc4191828ffd1185b7a64a.setContent(html_b17db6bbaa1e4e7fab1f2e391dbce3a0);
+        
+
+        circle_marker_745b425c53724bf9ab255b88d46862a3.bindPopup(popup_67d771e5fadc4191828ffd1185b7a64a)
+        ;
+
+        
+    
+    
+            var circle_marker_434414af0cd94d9a812dd49785ff7d48 = L.circleMarker(
+                [30.7376, 76.7657],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_98a787dc919342c5ada809b633f01459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1af424b647b54bf79ce4acbe88682e9b = $(`<div id="html_1af424b647b54bf79ce4acbe88682e9b" style="width: 100.0%; height: 100.0%;">New Krishna Sweet, SCO 14, Sector 23, Chandigarh</div>`)[0];
+            popup_98a787dc919342c5ada809b633f01459.setContent(html_1af424b647b54bf79ce4acbe88682e9b);
+        
+
+        circle_marker_434414af0cd94d9a812dd49785ff7d48.bindPopup(popup_98a787dc919342c5ada809b633f01459)
+        ;
+
+        
+    
+    
+            var circle_marker_31fce67e6bc943f194d691a5038bd5ce = L.circleMarker(
+                [30.7171, 76.7529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_e3f90baf20de4add9616a0ed374369e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c805fd9811e0483581d56f4eb6b83815 = $(`<div id="html_c805fd9811e0483581d56f4eb6b83815" style="width: 100.0%; height: 100.0%;">7 West - Western Court, Hotel Western Court, SCO 103-106, Sector 43 B, Near Sector 43, Chandigarh</div>`)[0];
+            popup_e3f90baf20de4add9616a0ed374369e8.setContent(html_c805fd9811e0483581d56f4eb6b83815);
+        
+
+        circle_marker_31fce67e6bc943f194d691a5038bd5ce.bindPopup(popup_e3f90baf20de4add9616a0ed374369e8)
+        ;
+
+        
+    
+    
+            var circle_marker_36b3cb2ff512413797f683cb8822a3b4 = L.circleMarker(
+                [30.7189, 76.7128],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_43497e03c5514081a9cac780d43d4c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e05ec7a76cb40a1b914139b24718739 = $(`<div id="html_6e05ec7a76cb40a1b914139b24718739" style="width: 100.0%; height: 100.0%;">Cheezy Delight Pizza, Booth 22, Phase 5, Mohali</div>`)[0];
+            popup_43497e03c5514081a9cac780d43d4c55.setContent(html_6e05ec7a76cb40a1b914139b24718739);
+        
+
+        circle_marker_36b3cb2ff512413797f683cb8822a3b4.bindPopup(popup_43497e03c5514081a9cac780d43d4c55)
+        ;
+
+        
+    
+    
+            var circle_marker_51055f21a77d44baa4a209b811d858aa = L.circleMarker(
+                [30.6954, 76.7314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_5e468a0890884587aa2ec41b945978f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d0f18c9840f4729a5f2b06db3f54033 = $(`<div id="html_7d0f18c9840f4729a5f2b06db3f54033" style="width: 100.0%; height: 100.0%;">Teh Cafe Next Door, Fortis Healthcare, Phase 8, Sector 67, Mohali</div>`)[0];
+            popup_5e468a0890884587aa2ec41b945978f9.setContent(html_7d0f18c9840f4729a5f2b06db3f54033);
+        
+
+        circle_marker_51055f21a77d44baa4a209b811d858aa.bindPopup(popup_5e468a0890884587aa2ec41b945978f9)
+        ;
+
+        
+    
+    
+            var circle_marker_aa7dee2949b4442f847c4e6815d095cd = L.circleMarker(
+                [30.724948936170215, 76.7709085106383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_9e4746e6ca7e43688eb14667077d4b53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e972d59a5e646e999f6d6053445ff67 = $(`<div id="html_4e972d59a5e646e999f6d6053445ff67" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>`)[0];
+            popup_9e4746e6ca7e43688eb14667077d4b53.setContent(html_4e972d59a5e646e999f6d6053445ff67);
+        
+
+        circle_marker_aa7dee2949b4442f847c4e6815d095cd.bindPopup(popup_9e4746e6ca7e43688eb14667077d4b53)
+        ;
+
+        
+    
+    
+            var circle_marker_0ff625b7b0a745efb386b6ffec9e5a37 = L.circleMarker(
+                [30.71895625, 76.78973125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_68b9abe4f45242918183d19efd322120);
+        
+    
+        var popup_15d2abc6b23b421ca64d9a09b2ae1935 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74c40164f598417b91a7d584a05c59dd = $(`<div id="html_74c40164f598417b91a7d584a05c59dd" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>`)[0];
+            popup_15d2abc6b23b421ca64d9a09b2ae1935.setContent(html_74c40164f598417b91a7d584a05c59dd);
+        
+
+        circle_marker_0ff625b7b0a745efb386b6ffec9e5a37.bindPopup(popup_15d2abc6b23b421ca64d9a09b2ae1935)
+        ;
+
+        
+    
+</script>
